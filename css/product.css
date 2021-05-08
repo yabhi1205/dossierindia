@@ -1,0 +1,105 @@
+/*html*/
+
+html{
+background-color:rgb(236, 234, 234);
+}
+
+/*header*/
+
+header {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.home{
+    padding-top: 15px;
+}
+
+.home a {
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    padding-inline: 10px;
+    font-size: 23px;
+    color: rgb(202, 3, 3);
+    text-decoration: none;
+}
+
+.home a:hover {
+    color: black;
+    text-decoration: none;
+    zoom: 120%;
+    border-bottom: black solid 1px;
+    transition:zoom;
+    transition: color ;
+    transition: border-bottom;
+    transition-duration: 1.5s;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Pirata One', cursive;
+    padding-right: 50px;
+}
+
+.company a {
+    text-decoration: none;
+}
+
+/*products*/
+
+.products{
+    text-decoration: none;
+    margin-left: 3%;
+}
+
+.products h1{
+    font-size: 280%;
+    text-transform: capitalize;
+}
+
+.list{
+    text-decoration: none;
+    margin-left: 2%;
+    font-size: 120%;
+    color: rgb(82, 216, 250) ;
+    text-transform: capitalize;
+    text-decoration: none;
+    border: none;
+}
+
+.list > details :hover{
+    zoom: 110%;
+    text-shadow: black 2px;
+    transition-property: zoom;
+    transition-duration: 5s ;
+    transition-timing-function: ease-in;
+}
+
+/*chacterstics*/
+
+.characterstics{
+    display: flex;
+    justify-content: space-around;
+    color: red;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-top: 3%;
+}
+
+.quality img{
+    height: 200px;
+    width:200px;
+}
+
+.punctual img{
+    height: 200px;
+    width: 200px;
+}

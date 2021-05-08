@@ -1,0 +1,161 @@
+ /*header*/
+
+header {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.home a {
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    padding-inline: 10px;
+    font-size: 20px;
+    color: brown;
+    text-decoration: none;
+}
+
+.home a:hover {
+    color: black;
+    text-decoration: none;
+    font-size: 23px;
+    border-bottom: black solid 1px;
+    transition: font-size;
+    transition: color ;
+    transition: border-bottom;
+    transition-duration: 1s;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Pirata One', cursive;
+    padding-right: 50px;
+}
+
+.company a {
+    text-decoration: none;
+}
+
+/*body*/
+
+.aim {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.aim img {
+    height: 350px;
+    width: 350px;
+    padding-right: 150px;
+}
+
+.aim p {
+    width: 600px;
+    padding-left: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: darkblue;
+    font-family: 'Redressed', cursive;
+    padding-top: 25px;
+}
+
+/*products*/
+
+#heading {
+    text-transform: capitalize;
+    font-size: 30px;
+    color: crimson;
+    text-align: center;
+}
+
+.products a {
+    text-transform: capitalize;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Karla', sans-serif;
+
+}
+
+#racks {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+
+#racks p {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+#racks img {
+    height: 15%;
+    width: 15%;
+}
+
+.racks{
+    border:solid black 1.5px;
+}
+
+.racks > a :hover{
+    border: solid black 3px;
+    color: black;
+    background-color: rgb(190, 189, 189);
+    transition: border color ;
+    transition-duration: 0.5s;
+}
+
+/*footer*/
+
+footer {
+margin: 0%;
+background-color: rgb(235, 235, 235);
+
+}
+
+form{
+    width: 500px;
+    color: navy;
+    text-transform: capitalize;
+    text-decoration: none;
+    border: solid rgba(133, 134, 202, .5) 5px;
+    align-items: center;
+}
+
+.form{
+    vertical-align:middle;
+    display:flexbox;
+}
+
+form > div ::placeholder{
+    text-transform: capitalize;
+    color: rgb(145, 139, 139);
+    text-decoration: none;
+}
+
+.form :hover{
+    zoom: 1;
+    border: black solid 8px ;
+}
+
+.copyright{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: red;
+    padding: 25px 0px 25px 0px;
+}

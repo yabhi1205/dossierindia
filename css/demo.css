@@ -1,0 +1,27 @@
+.abhinav{
+    border: black solid 2px;
+
+}
+
+.abhinav :hover{
+    background-color:black;
+    border:black solid 5px;
+    transition: border;
+    transition: all;
+    transition-duration:3s;
+    color: red;
+}
+
+.website{
+    display: flex;
+    justify-content: space-around;
+}
+
+.website > img{
+    height: 200px;
+    width: 200px;
+}
+
+.website > p{
+    color: crimson;
+}
